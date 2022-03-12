@@ -16,7 +16,7 @@ Here is a mock-up of how the page looks and functions.
 Thanks for looking!
 
 ## Website
-https://github.com/Jefid/portfolio
+https://jefid.github.io/portfolio/
 
 ## Contribution
 Made with ❤️ by Jefferson
