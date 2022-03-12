@@ -131,7 +131,14 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.project-img:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 50%;
+}
+#large-image:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 50%;
+}
 
 .project:last-child {
   border-bottom: none;
