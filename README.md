@@ -1,15 +1,22 @@
-# portfolio
+# Working Portfolio
 
 ## Purpose
-A website that outlines the portfolio and contact information for Jefferson Quandt
+A website created with HTML/CSS that showcases projects completed during the University of Richmond Coding Bootcamp.
 
-## Built with 
+## Preview
+Here is a mock-up of how the page looks and functions.
+
+<img src="assets\images\readme.png"></img>
+
+## Built With
 * HTML
 * CSS
 
+### This project was built to highlight skills learned in advanced CSS. 
+Thanks for looking!
+
 ## Website
-https://github.com/Jefid/portfolio.git
+https://github.com/Jefid/portfolio
 
 ## Contribution
-Made by Jefferson Quandt
-
+Made with ❤️ by Jefferson

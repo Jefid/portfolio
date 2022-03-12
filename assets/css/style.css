@@ -11,7 +11,7 @@
   }
   
   body {
-    color: var(--tertiary-color);
+    background-color: var(--primary-color);
     font-family: Helvetica, Arial, sans-serif;
   }
   
@@ -92,17 +92,29 @@
 }
 
 /* SECTION TITLE STYLES END */
+
+/* ABOUT ME SECTION START */
 .about-me {
   font-size: 28px;
-  border-bottom: 3px solid;
   color: var(--secondary-color);
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: left;
-  margin: 0 auto 35px auto;
-  width: 50%;
+  margin: 0 auto 10px auto;
+  width: 100%;
+}
+
+.profile-img {
+  flex: 20 12%;
+  margin-right: 20px;
+  flex-wrap: wrap;
 }
 
 
+.profile-img img {
+  max-width: 70%;
+}
+/* ABOUT ME SECTION END */
 
 
 /* WORK AND PROJECTS START  */
@@ -138,7 +150,9 @@
   align-items: center;
 }
 
-
+#large-image {
+  width: 90%;
+}
 .project-img {
   flex: 20 12%;
   margin-right: 20px;
@@ -146,7 +160,7 @@
 
 
 .project-img img {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .project-text {
@@ -170,11 +184,24 @@
 .contact {
   background: var(--primary-color);
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
 
+
+.contact a {
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: x-large;
+}
   /* FOOTER STYLES START */
   footer {
     background: var(--tertiary-color);
