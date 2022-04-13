@@ -68,7 +68,7 @@
   header nav ul li a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
-    border-radius: 15px;
+    border-radius: 10px;
     text-shadow: none;
   }
   
@@ -113,6 +113,7 @@
 
 .profile-img img {
   max-width: 70%;
+  border-radius: 10px;
 }
 /* ABOUT ME SECTION END */
 
@@ -134,10 +135,12 @@
 .project-img:hover {
   transition: 0.5s ease-in-out;
   opacity: 50%;
+  color: var(--tertiary-color);
 }
 #large-image:hover {
   transition: 0.5s ease-in-out;
   opacity: 50%;
+  color: var(--tertiary-color);
 }
 
 .project:last-child {
@@ -159,15 +162,18 @@
 
 #large-image {
   width: 90%;
+  border-radius: 10px;
 }
 .project-img {
   flex: 20 12%;
   margin-right: 20px;
+  border-radius: 10px;
 }
 
 
 .project-img img {
   max-width: 70%;
+  border-radius: 10px;
 }
 
 .project-text {
@@ -183,6 +189,10 @@
   font-size: 26px;
   line-height: 1.5;
   color: var(--secondary-color);
+}
+
+div p {
+  max-width: 90%;
 }
 
 /* WORK AND PROJECTS END  */
